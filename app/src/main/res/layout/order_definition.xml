@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <Spinner
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:layout_margin="16dp"
+        android:id="@+id/spinner_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Spinner
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:layout_margin="16dp"
+        android:id="@+id/spinner_item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <DatePicker
+        android:background="@color/colorPrimary"
+        android:calendarTextColor="@color/white"
+        android:layout_margin="16dp"
+        android:id="@+id/date_Picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:text="Apply"
+        android:id="@+id/apply_button"
+        style="@style/ButtonStyle"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/items_selected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

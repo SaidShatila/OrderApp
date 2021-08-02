@@ -46,7 +46,6 @@ class UserLoginViewModel(application: Application) : AndroidViewModel(applicatio
         WebServiceClient.client.create(Api::class.java).LOGIN(email = email?.get()!!
             , password = password?.get()!!)
             .enqueue(this)
-
     }
 
     override fun onResponse(call: Call<User>?, response: Response<User>?) {

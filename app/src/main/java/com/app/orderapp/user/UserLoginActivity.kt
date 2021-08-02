@@ -1,5 +1,6 @@
 package com.app.orderapp.user
 
+import android.content.Intent
 import android.os.Bundle
 
 import android.widget.Toast
@@ -9,6 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.app.orderapp.R
 import com.app.orderapp.databinding.UserLoginPageBinding
+import com.app.orderapp.orderdefinition.OrderDefinitionActivity
 import com.app.orderapp.utils.CustomeProgressDialog
 
 
@@ -36,7 +38,9 @@ class LoginActivity : AppCompatActivity() {
 
         viewmodel?.userLogin?.observe(this, Observer { user ->
             Toast.makeText(this, "welcome, ${user?.email}", Toast.LENGTH_LONG).show()
-            
+            val intent = Intent(this, OrderDefinitionActivity::class.java).apply {
+            }
+            startActivity(intent)
         })
     }
 
