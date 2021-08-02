@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrderApp">
 
-        <activity android:name="com.app.orderapp.orderdefinition.OrderDefinitionActivity"/>
-        <activity android:name="com.app.orderapp.user.LoginActivity">
-        <intent-filter>
+        <activity android:name="com.app.orderapp.user.LoginActivity"/>
+            <activity android:name="com.app.orderapp.orderdefinition.OrderDefinitionActivity">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
