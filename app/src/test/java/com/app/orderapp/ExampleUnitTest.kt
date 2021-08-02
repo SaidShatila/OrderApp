@@ -1,4 +1,4 @@
-package com.app.sqlitetest
+package com.app.orderapp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.app.sqlitetest.model
+package com.app.orderapp.model
 
 import kotlin.random.Random
 

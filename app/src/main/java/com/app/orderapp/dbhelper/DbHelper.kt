@@ -1,11 +1,11 @@
-package com.app.sqlitetest.dbhelper
+package com.app.orderapp.dbhelper
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.app.sqlitetest.model.UserModel
+import com.app.orderapp.model.UserModel
 
 class DbHelper(context: Context) : SQLiteOpenHelper(context, "DATABASE", null, 4) {
     val TAG = "DbHelper"

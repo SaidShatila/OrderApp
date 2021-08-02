@@ -3,8 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_lock.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_login_bottom_bg.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_login_next.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_login_next_selector.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_login_next_unselected.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_person.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/drawable/ic_progress_background.xml" value="0.21471861471861473" />
         <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/layout/dialog_progress.xml" value="0.20394736842105263" />
         <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/layout/user_insert.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/layout/user_insert_page.xml" value="0.144" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/mipmap-anydpi-v26/ic_progress.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/mipmap-anydpi-v26/iv_logo.xml" value="0.21471861471861473" />
+        <entry key="..\:/Android Studio/SqLiteTest/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.app.sqlitetest.user.UserInsertViewModel" />
+            type="com.app.orderapp.user.UserLoginViewModel" />
 
     </data>
 
@@ -15,9 +15,7 @@
         android:layout_height="match_parent">
 
         <include
-            layout="@layout/user_insert_page"
-            app:rootVisibility="@{viewModel.contentVisibility}"
-            app:viewModel="@{viewModel.contentViewModel}" />
+            layout="@layout/user_login_page"/>
 
     </FrameLayout>
 </layout>
