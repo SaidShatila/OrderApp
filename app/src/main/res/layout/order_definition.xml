@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:fitsSystemWindows="true">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinner_item"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/spinner_item_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center" />
+
+        <DatePicker
+            android:id="@+id/date_Picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/colorPrimary"
+            android:calendarTextColor="@color/white"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/apply_button"
+            style="@style/ButtonStyle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:text="Apply"
+            android:textAllCaps="false" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/items_selected"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/menu" />
+</androidx.drawerlayout.widget.DrawerLayout>
